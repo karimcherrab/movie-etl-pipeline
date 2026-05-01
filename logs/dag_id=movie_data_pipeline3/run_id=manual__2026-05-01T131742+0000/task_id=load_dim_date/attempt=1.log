@@ -1,0 +1,30 @@
+{"timestamp":"2026-05-01T13:20:39.144164Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T13:20:39.152827Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/movie_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T13:20:39.349477Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/movie_etl_dag.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T13:20:39.876871Z","level":"info","event":"daaaaaaaaaaaaate","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.177227Z","level":"info","event":"<DatetimeArray>","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.178218Z","level":"info","event":"['2025-11-12 00:00:00', '2025-12-17 00:00:00', '2025-10-21 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.181859Z","level":"info","event":" '2025-09-18 00:00:00', '2025-11-26 00:00:00', '2025-10-30 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.183956Z","level":"info","event":" '2025-11-11 00:00:00', '2025-06-25 00:00:00', '2025-09-10 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.185086Z","level":"info","event":" '2025-06-13 00:00:00', '2025-07-29 00:00:00', '2025-12-03 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.185996Z","level":"info","event":" '2025-12-05 00:00:00', '2025-07-11 00:00:00', '2025-10-08 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.186710Z","level":"info","event":" '2024-10-23 00:00:00', '2025-12-18 00:00:00', '2025-08-16 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.187618Z","level":"info","event":" '2025-09-19 00:00:00', '2025-11-05 00:00:00', '2025-04-26 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.188368Z","level":"info","event":" '2025-11-30 00:00:00', '2025-03-14 00:00:00', '2025-10-01 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.189141Z","level":"info","event":" '2022-12-14 00:00:00', '2025-07-18 00:00:00', '2009-12-16 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.189840Z","level":"info","event":" '2025-01-29 00:00:00', '2024-10-01 00:00:00', '2002-08-09 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.190718Z","level":"info","event":" '2014-01-24 00:00:00', '2025-10-17 00:00:00', '2025-07-30 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.192382Z","level":"info","event":" '2025-09-23 00:00:00', '2016-02-11 00:00:00', '2025-12-11 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.193253Z","level":"info","event":" '2025-11-19 00:00:00', '2025-10-06 00:00:00', '2025-11-07 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.194087Z","level":"info","event":" '2025-06-20 00:00:00', '2025-10-23 00:00:00', '2009-05-13 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.194756Z","level":"info","event":" '2017-09-06 00:00:00', '2025-11-13 00:00:00', '2025-05-17 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.195612Z","level":"info","event":" '2026-03-05 00:00:00', '1972-03-14 00:00:00', '2019-09-04 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.196869Z","level":"info","event":" '2025-07-23 00:00:00', '2025-08-14 00:00:00', '2024-09-29 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.197892Z","level":"info","event":" '1982-06-11 00:00:00', '2025-11-27 00:00:00', '2025-07-09 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.198728Z","level":"info","event":" '2024-07-05 00:00:00', '2000-11-17 00:00:00', '2012-04-25 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.199792Z","level":"info","event":" '2025-12-16 00:00:00', '2014-11-05 00:00:00', '2025-02-07 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.200645Z","level":"info","event":" '2025-10-15 00:00:00', '2025-07-01 00:00:00', '2024-07-04 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.202092Z","level":"info","event":" '2010-07-15 00:00:00', '2023-10-25 00:00:00', '2025-10-20 00:00:00',","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.203033Z","level":"info","event":" '2022-09-09 00:00:00']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.204034Z","level":"info","event":"Length: 67, dtype: datetime64[ns]","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:40.236240Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}

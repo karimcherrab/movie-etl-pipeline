@@ -1,0 +1,86 @@
+{"timestamp":"2026-05-01T13:18:08.482260Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T13:18:08.508077Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/movie_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T13:18:09.697205Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/movie_etl_dag.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T13:18:14.359371Z","level":"info","event":"Chargement des relations film-genre...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:14.950813Z","level":"info","event":"['Thriller', 'Crime', 'Mystery']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.200991Z","level":"info","event":"['Science Fiction', 'Adventure', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.849829Z","level":"info","event":"['Action', 'War']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.853288Z","level":"info","event":"['Science Fiction', 'Adventure', 'Drama']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.861106Z","level":"info","event":"['Animation', 'Comedy', 'Adventure', 'Family', 'Mystery']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.864256Z","level":"info","event":"['Science Fiction', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.865822Z","level":"info","event":"['Action', 'Thriller', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.869278Z","level":"info","event":"['Thriller', 'Mystery', 'Comedy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.870678Z","level":"info","event":"['Action', 'Thriller', 'Mystery']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.873282Z","level":"info","event":"['Action', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.878698Z","level":"info","event":"['Western', 'Adventure', 'Crime']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.881855Z","level":"info","event":"['Science Fiction', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.886112Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.887172Z","level":"info","event":"['Action', 'Drama', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.888032Z","level":"info","event":"['Action', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.897417Z","level":"info","event":"['Science Fiction', 'Adventure', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.900041Z","level":"info","event":"['Action', 'Crime', 'Comedy', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.905313Z","level":"info","event":"['Horror']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.911295Z","level":"info","event":"['Comedy', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.933409Z","level":"info","event":"['Action', 'Crime', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.965625Z","level":"info","event":"['Animation', 'Action', 'Romance', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.977834Z","level":"info","event":"['Action', 'Science Fiction', 'Adventure']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.980159Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.985720Z","level":"info","event":"['Action', 'Fantasy', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.988527Z","level":"info","event":"['Action', 'Crime', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:15.995051Z","level":"info","event":"['Action', 'Drama', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.000893Z","level":"info","event":"['Action', 'Adventure', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.010281Z","level":"info","event":"['Animation', 'Action', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.016926Z","level":"info","event":"['Action', 'Adventure', 'Fantasy', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.025890Z","level":"info","event":"['Animation', 'Fantasy', 'Adventure', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.038692Z","level":"info","event":"['Action', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.043189Z","level":"info","event":"['Action', 'Adventure', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.057296Z","level":"info","event":"['Action', 'Adventure', 'Thriller', 'Crime', 'Drama']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.072486Z","level":"info","event":"['War', 'Drama', 'History', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.081341Z","level":"info","event":"['Drama', 'Fantasy', 'Horror']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.086649Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.096257Z","level":"info","event":"['Horror', 'Fantasy', 'Romance']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.103076Z","level":"info","event":"['Thriller', 'Crime', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.107852Z","level":"info","event":"['Animation', 'Adventure', 'Family', 'Comedy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.139424Z","level":"info","event":"['Romance', 'Drama']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.144769Z","level":"info","event":"['Action', 'Thriller', 'Crime']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.223325Z","level":"info","event":"['Drama', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.237087Z","level":"info","event":"['Animation', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.237809Z","level":"info","event":"['Fantasy', 'Music', 'Comedy', 'Animation']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.241743Z","level":"info","event":"['Animation', 'Family', 'Fantasy', 'Horror']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.242984Z","level":"info","event":"['Fantasy', 'Animation', 'Action', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.250734Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.282358Z","level":"info","event":"['Horror']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.286733Z","level":"info","event":"['Fantasy', 'Adventure', 'Romance']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.289362Z","level":"info","event":"['Action', 'Thriller', 'Adventure']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.293303Z","level":"info","event":"['Romance']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.297287Z","level":"info","event":"['Mystery', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.298218Z","level":"info","event":"['Action', 'Comedy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.341297Z","level":"info","event":"['Drama', 'Crime']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.343000Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.349302Z","level":"info","event":"['Horror', 'Mystery']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.351504Z","level":"info","event":"['Science Fiction', 'Adventure', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.379554Z","level":"info","event":"['Comedy', 'Horror', 'Mystery', 'Family']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.398797Z","level":"info","event":"['Romance', 'Drama']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.412472Z","level":"info","event":"['Science Fiction', 'Crime']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.414112Z","level":"info","event":"['Action', 'Crime']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.415749Z","level":"info","event":"['Science Fiction', 'Adventure', 'Family', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.433188Z","level":"info","event":"['Romance', 'Comedy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.438318Z","level":"info","event":"['Science Fiction', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.454103Z","level":"info","event":"['Science Fiction', 'Adventure', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.459417Z","level":"info","event":"['Action', 'Crime', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.463000Z","level":"info","event":"['Action', 'Adventure', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.500046Z","level":"info","event":"['Family', 'Comedy', 'Fantasy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.505178Z","level":"info","event":"['Science Fiction', 'Action', 'Adventure']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.536447Z","level":"info","event":"['Family', 'Comedy', 'Adventure', 'Animation']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.553011Z","level":"info","event":"['Adventure', 'Drama', 'Science Fiction']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.579587Z","level":"info","event":"['Animation', 'Family', 'Adventure']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.620927Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.634601Z","level":"info","event":"['Science Fiction', 'Adventure', 'Action']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.650468Z","level":"info","event":"['Animation', 'Adventure', 'Fantasy', 'Family', 'Action', 'Comedy']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.815467Z","level":"info","event":"['Action', 'Science Fiction', 'Adventure']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.872836Z","level":"info","event":"['Horror', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.902110Z","level":"info","event":"['Action', 'Thriller']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.914115Z","level":"info","event":"['Action', 'Drama']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.936148Z","level":"info","event":"['Action', 'War']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:17.001328Z","level":"info","event":"Chargement des relations terminé.","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:18:16.961398Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}

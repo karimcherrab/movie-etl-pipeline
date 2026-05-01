@@ -1,0 +1,100 @@
+{"timestamp":"2026-05-01T13:07:49.064424Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T13:07:49.072228Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/movie_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T13:07:50.548688Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/movie_etl_dag.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T13:07:53.142235Z","level":"info","event":"budget =                                                movies  ...                                            reviews","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.152159Z","level":"info","event":"0   {'id': 425274, 'details': {'adult': False, 'ba...  ...  [{'review_id': '691890cfea3b47df3c4c9ff5', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.153352Z","level":"info","event":"1   {'id': 83533, 'details': {'adult': False, 'bac...  ...  [{'review_id': '6943d8d0a56edf751f705664', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.162606Z","level":"info","event":"2   {'id': 1223601, 'details': {'adult': False, 'b...  ...  [{'review_id': '692af36a96ff27c50d3ce601', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.174899Z","level":"info","event":"3   {'id': 982843, 'details': {'adult': False, 'ba...  ...  [{'review_id': '6945c6e677a86b44af7ab761', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.175778Z","level":"info","event":"4   {'id': 1084242, 'details': {'adult': False, 'b...  ...  [{'review_id': '69277274222e5a1e2e3716b3', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.190601Z","level":"info","event":"..                                                ...  ...                                                ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.196449Z","level":"info","event":"75  {'id': 27205, 'details': {'adult': False, 'bac...  ...  [{'review_id': '589c420fc3a3684cde007279', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.197202Z","level":"info","event":"76  {'id': 507089, 'details': {'adult': False, 'ba...  ...  [{'review_id': '653a4ad08a0e9b010b29016c', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.210486Z","level":"info","event":"77  {'id': 1469354, 'details': {'adult': False, 'b...  ...                                                 []","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.223579Z","level":"info","event":"78  {'id': 911430, 'details': {'adult': False, 'ba...  ...  [{'review_id': '685ef1ed3a418b6dde7ecf4a', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.259738Z","level":"info","event":"79  {'id': 840326, 'details': {'adult': False, 'ba...  ...  [{'review_id': '645c30ea0231f20139eac8dd', 'mo...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.274969Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:53.289946Z","level":"info","event":"[80 rows x 3 columns]","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.865032Z","level":"info","event":"gennnnnnnnnnnnnnnnnnre","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.977189Z","level":"info","event":"    movie_id            genre","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.981223Z","level":"info","event":"0     425274         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.997424Z","level":"info","event":"0     425274            Crime","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.999029Z","level":"info","event":"0     425274          Mystery","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:55.999767Z","level":"info","event":"1      83533  Science Fiction","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.000667Z","level":"info","event":"1      83533        Adventure","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.001370Z","level":"info","event":"..       ...              ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.002076Z","level":"info","event":"77   1469354         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.003129Z","level":"info","event":"78    911430           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.007438Z","level":"info","event":"78    911430            Drama","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.016247Z","level":"info","event":"79    840326           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.019458Z","level":"info","event":"79    840326              War","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.020311Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:56.021126Z","level":"info","event":"[224 rows x 2 columns]","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:58.984217Z","level":"info","event":"budget = {'movies':     movie_id  ...  original_language","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:58.991522Z","level":"info","event":"0     425274  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:58.995411Z","level":"info","event":"1      83533  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.004660Z","level":"info","event":"2    1223601  ...                 fi","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.005727Z","level":"info","event":"3     982843  ...                 ko","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.009389Z","level":"info","event":"4    1084242  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.022631Z","level":"info","event":"..       ...  ...                ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.025152Z","level":"info","event":"75     27205  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.055829Z","level":"info","event":"76    507089  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.071896Z","level":"info","event":"77   1469354  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.074128Z","level":"info","event":"78    911430  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.107243Z","level":"info","event":"79    840326  ...                 fi","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.118894Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.129769Z","level":"info","event":"[80 rows x 18 columns], 'movie_genres':     movie_id            genre","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.144118Z","level":"info","event":"0     425274         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.161368Z","level":"info","event":"0     425274            Crime","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.164023Z","level":"info","event":"0     425274          Mystery","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.167628Z","level":"info","event":"1      83533  Science Fiction","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.173635Z","level":"info","event":"1      83533        Adventure","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.174404Z","level":"info","event":"..       ...              ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.175113Z","level":"info","event":"77   1469354         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.175846Z","level":"info","event":"78    911430           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.176996Z","level":"info","event":"78    911430            Drama","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.177762Z","level":"info","event":"79    840326           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.187497Z","level":"info","event":"79    840326              War","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.190565Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.192797Z","level":"info","event":"[224 rows x 2 columns], 'movie_cast':       movie_id  actor_id  ... order popularity","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.193650Z","level":"info","event":"0       425274     44735  ...     0     5.6558","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.194808Z","level":"info","event":"1       425274   3918497  ...     1     2.9483","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.196175Z","level":"info","event":"2       425274   1767250  ...     2     5.8179","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.204735Z","level":"info","event":"3       425274   1029934  ...     3     3.8425","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.207443Z","level":"info","event":"4       425274     10882  ...     4    10.4841","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.211263Z","level":"info","event":"...        ...       ...  ...   ...        ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.212040Z","level":"info","event":"1402    840326   2329587  ...    15     0.7751","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.212797Z","level":"info","event":"1403    840326   3896427  ...    16     0.0798","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.213503Z","level":"info","event":"1404    840326   3896428  ...    17     0.0407","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.214729Z","level":"info","event":"1405    840326   3403707  ...    18     0.0478","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.216841Z","level":"info","event":"1406    840326   3896429  ...    19     0.0456","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.222767Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.224519Z","level":"info","event":"[1407 rows x 7 columns], 'movie_reviews':                     review_id  ...  language","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.225612Z","level":"info","event":"0    691890cfea3b47df3c4c9ff5  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.226429Z","level":"info","event":"1    6928c31401823e51fe26c751  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.230471Z","level":"info","event":"2    6943d8d0a56edf751f705664  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.241333Z","level":"info","event":"3    69457873edfc44b8a97ab51e  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.242899Z","level":"info","event":"4    69468cbad49dde55e5fb0ac4  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.246416Z","level":"info","event":"..                        ...  ...       ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.247324Z","level":"info","event":"372  64cca50e798e0600ad1830bf  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.248367Z","level":"info","event":"373  64cf1ca9303c85013a150ee2  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.258950Z","level":"info","event":"374  65bd3c8e2b8a43017b1e3092  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.260854Z","level":"info","event":"375  66c8f1db882df41826e4d450  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.267930Z","level":"info","event":"376  678389a5601acfe7bd4f174e  ...       NaN","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.269590Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:07:59.314793Z","level":"info","event":"[353 rows x 9 columns]}","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:00.997183Z","level":"info","event":"budget =     movie_id  ...  original_language","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:00.998051Z","level":"info","event":"0     425274  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:00.999858Z","level":"info","event":"1      83533  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.000615Z","level":"info","event":"2    1223601  ...                 fi","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.012214Z","level":"info","event":"3     982843  ...                 ko","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.012967Z","level":"info","event":"4    1084242  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.013692Z","level":"info","event":"..       ...  ...                ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.014563Z","level":"info","event":"75     27205  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.015381Z","level":"info","event":"76    507089  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.016121Z","level":"info","event":"77   1469354  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.016870Z","level":"info","event":"78    911430  ...                 en","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.017593Z","level":"info","event":"79    840326  ...                 fi","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.018194Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:01.028726Z","level":"info","event":"[80 rows x 18 columns]","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:08:00.993192Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}

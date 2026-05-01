@@ -1,0 +1,6 @@
+{"timestamp":"2026-05-01T13:20:34.058834Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T13:20:34.065610Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/movie_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T13:20:34.601137Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/movie_etl_dag.py","lineno":8,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T13:20:35.214877Z","level":"info","event":"Chargement des relations film-genre...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:37.173628Z","level":"info","event":"Chargement des relations terminé.","logger":"task.stdout"}
+{"timestamp":"2026-05-01T13:20:37.173930Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}

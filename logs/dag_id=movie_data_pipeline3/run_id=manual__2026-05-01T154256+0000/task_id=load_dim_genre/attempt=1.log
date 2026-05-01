@@ -1,0 +1,23 @@
+{"timestamp":"2026-05-01T15:43:30.179119Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T15:43:30.233243Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/movie_etl_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T15:43:31.165206Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/movie_etl_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T15:43:32.489181Z","level":"info","event":"geeeeenre","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.897201Z","level":"info","event":"    movie_id            genre","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.897799Z","level":"info","event":"0     425274         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.898366Z","level":"info","event":"0     425274            Crime","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.898779Z","level":"info","event":"0     425274          Mystery","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.904637Z","level":"info","event":"1      83533  Science Fiction","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.905724Z","level":"info","event":"1      83533        Adventure","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.906266Z","level":"info","event":"..       ...              ...","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.907410Z","level":"info","event":"77   1469354         Thriller","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.908533Z","level":"info","event":"78    911430           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.909093Z","level":"info","event":"78    911430            Drama","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.912852Z","level":"info","event":"79    840326           Action","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.913291Z","level":"info","event":"79    840326              War","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.913838Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:32.914456Z","level":"info","event":"[224 rows x 2 columns]","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:33.169729Z","level":"info","event":"geeeeenre2","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:33.238733Z","level":"info","event":"['Thriller' 'Crime' 'Mystery' 'Science Fiction' 'Adventure' 'Fantasy'","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:33.240426Z","level":"info","event":" 'Action' 'War' 'Drama' 'Animation' 'Comedy' 'Family' 'Western' 'Horror'","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:33.241796Z","level":"info","event":" 'Romance' 'History' 'Music']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T15:43:33.284258Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":216}
