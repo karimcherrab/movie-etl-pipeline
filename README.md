@@ -1,6 +1,6 @@
 # 🎬 Movie ETL Pipeline - Data Engineering Project
 
-![Airflow DAG](images/airflow_dag.png)
+![Airflow](images/airflow_dag.png)
 
 ## 📌 Overview
 
@@ -19,7 +19,9 @@ for analytics.
 
 # 🏗️ Architecture
 
-![Pipeline Architecture](images/architecture.png)
+![UML Architecture](images/uml_architecture.jpg)
+
+The pipeline architecture:
 
       API / CSV Data
             |
@@ -44,6 +46,17 @@ for analytics.
     
 ---
 
+# ⏱️ Airflow DAG
+
+
+![Airflow DAG](images/airflow_dag.jpg)
+
+
+Apache Airflow is used to orchestrate and automate the ETL pipeline.
+
+The DAG contains the following task
+
+---
 # 🚀 Features
 
 ✅ Automated data extraction  
@@ -100,18 +113,18 @@ Install dependencies: pip install -r requirements.txt
 Run the project: docker compose up
 Access Airflow:http://localhost:8080
 Activate the DAG:Activate the DAG:
-
+```
 
 ---
 
 
 ##  📈 Future Improvements
-Add data quality validation
-Add automated tests
-Add monitoring and alerts
-Add Spark for large-scale processing
-Deploy on cloud platforms
-Add dashboard with Streamlit or Metabase
+ - Add data quality validation
+ - Add automated tests
+ - Add monitoring and alerts
+ - Add Spark for large-scale processing
+ - Deploy on cloud platforms
+ - Add dashboard with Streamlit or Metabase
 
 ---
 
@@ -120,13 +133,12 @@ Add dashboard with Streamlit or Metabase
 
 Karim Cherrab
 
-Data Engineering Portfolio Project
 
 ## ⭐ Skills Demonstrated
-Python Development
-ETL Pipeline Design
-Data Cleaning
-SQL and PostgreSQL
-Apache Airflow
-Docker
-Data Engineering Workflow
+ - Python Development
+ - ETL Pipeline Design
+ - Data Cleaning
+ - SQL and PostgreSQL
+ - Apache Airflow
+ - Docker
+ - Data Engineering Workflow
