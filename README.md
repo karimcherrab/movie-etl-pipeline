@@ -1,6 +1,6 @@
 # 🎬 Movie ETL Pipeline - Data Engineering Project
 
-![Airflow](images/airflow_dag.png)
+![Airflow DAG](images/airflow_dag.png)
 
 ## 📌 Overview
 
