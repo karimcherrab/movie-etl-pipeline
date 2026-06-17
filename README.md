@@ -1,7 +1,5 @@
 # 🎬 Movie ETL Pipeline - Data Engineering Project
 
-![Airflow](images/airflow_dag.png)
-
 ## 📌 Overview
 
 This project is an end-to-end Data Engineering pipeline that collects, transforms,
