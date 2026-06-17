@@ -101,13 +101,20 @@ Run the project: docker compose up
 Access Airflow:http://localhost:8080
 Activate the DAG:Activate the DAG:
 
-📈 Future Improvements
+
+---
+
+
+##  📈 Future Improvements
 Add data quality validation
 Add automated tests
 Add monitoring and alerts
 Add Spark for large-scale processing
 Deploy on cloud platforms
 Add dashboard with Streamlit or Metabase
+
+---
+
 
 ## 👨‍💻 Author
 
