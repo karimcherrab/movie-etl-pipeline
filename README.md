@@ -109,13 +109,13 @@ Add Spark for large-scale processing
 Deploy on cloud platforms
 Add dashboard with Streamlit or Metabase
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Karim Cherrab
 
 Data Engineering Portfolio Project
 
-⭐ Skills Demonstrated
+## ⭐ Skills Demonstrated
 Python Development
 ETL Pipeline Design
 Data Cleaning
